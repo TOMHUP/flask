@@ -36,7 +36,6 @@ from .signals import request_started, request_finished, got_request_exception, \
 from ._compat import reraise, string_types, text_type, integer_types, iterkeys
 
 # a lock used for logger initialization
-# for testing 
 _logger_lock = Lock()
 
 # a singleton sentinel value for parameter defaults
